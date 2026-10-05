@@ -15,6 +15,10 @@ export function Cta() {
 
   const { translations } = useLanguage()
 
+  const scrollToSection = (id) => {
+  document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+   };
+
     const handleDownload = () => {
     const link = document.createElement("a");
     link.href = "/CV.pdf";
@@ -23,6 +27,7 @@ export function Cta() {
     link.click();
     document.body.removeChild(link);
   };
+
   return (
     <section
       className="
@@ -65,7 +70,7 @@ export function Cta() {
 
             <div className="w-full h-auto flex flex-col gap-4 md:flex-row-reverse">
               <div className="w-full h-auto lg:text-2xl 2xl:text-xl md:flex md:justify-start">
-                <ShimmerButton>{translations.cta.button2}</ShimmerButton>
+                <ShimmerButton onClick={() => scrollToSection("contact")}>{translations.cta.button2}</ShimmerButton>
               </div>
               <div className="w-full h-auto 2xl:text-xl md:flex md:justify-end">
                 <ShinyButton onClick={handleDownload}>{translations.cta.button1}</ShinyButton>

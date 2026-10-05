@@ -85,12 +85,7 @@ import { button } from "framer-motion/client";
         adresseMail: "Adresse Mail",
         numeroTelephone: "Numero de telephone",
         button: "Reserver un appel"
-     },
-    
-    navbr: {
-      accueil: "Accueil"
-    }
-
+     }
  };
 
 
