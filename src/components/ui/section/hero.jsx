@@ -3,7 +3,7 @@ import { useLanguage } from "../languageContext";
 import fr from "../../../assets/service/fr";
 import en from "../../../assets/service/en";
 
-import profile from "../../../assets/profile.png";
+import profile from "../../../assets/image/profile.webp";
 
 import { TextAnimate } from "@/components/ui/text-animate";
 import { TypingAnimation } from "@/components/ui/typing-animation";

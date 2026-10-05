@@ -2,7 +2,6 @@ import { useLanguage } from "../languageContext";
 import fr from "../../../assets/service/fr";
 import en from "../../../assets/service/en";
 
-import { ShimmerButton } from "@/components/ui/shimmer-button";
 import { Star, StarHalf } from "lucide-react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -28,11 +27,14 @@ import {
   faTrophy,
 } from "@fortawesome/free-solid-svg-icons";
 
+import { ShimmerButton } from "@/components/ui/shimmer-button";
 import { ShineBorder } from "@/components/ui/shine-border";
+
 import { NomSection } from "../titreSection";
 import { ComponentIconTexte } from "../componentIconTexte";
-import aproposImage from "../../../assets/image/aproposImage.png";
-import profile from "../../../assets/profile.png";
+
+import aproposImage from "../../../assets/image/aproposImage.webp";
+
 import { motion } from "framer-motion";
 
 export function Propos() {
