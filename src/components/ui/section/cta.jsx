@@ -15,8 +15,8 @@ export function Cta() {
 
   const { translations } = useLanguage()
 
-  const scrollToSection = (id) => {
-  document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+  const scrollToSection = () => {
+  document.getElementById(contact).scrollIntoView({ behavior: "smooth" });
    };
 
     const handleDownload = () => {
@@ -70,7 +70,7 @@ export function Cta() {
 
             <div className="w-full h-auto flex flex-col gap-4 md:flex-row-reverse">
               <div className="w-full h-auto lg:text-2xl 2xl:text-xl md:flex md:justify-start">
-                <ShimmerButton onClick={() => scrollToSection("contact")}>{translations.cta.button2}</ShimmerButton>
+                <ShimmerButton onClick={scrollToSection}>{translations.cta.button2}</ShimmerButton>
               </div>
               <div className="w-full h-auto 2xl:text-xl md:flex md:justify-end">
                 <ShinyButton onClick={handleDownload}>{translations.cta.button1}</ShinyButton>

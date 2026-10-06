@@ -45,7 +45,7 @@ export function Contact() {
         px-5 pb-10
         flex justify-center items-center
         md:px-20 xl:px-50 2xl:px-80"
-    >
+      id="contact">
       <div
         className="
         alignServices
