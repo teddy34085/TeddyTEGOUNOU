@@ -2,8 +2,8 @@
 import { createContext, useContext, useState } from "react";
 
 
-import fr from "../../assets/service/fr"
-import en from "../../assets/service/en"
+import fr from "../../service/fr"
+import en from "../../service/en"
 
 const LanguageContext = createContext()
 

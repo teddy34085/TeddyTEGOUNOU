@@ -1,6 +1,6 @@
 import { useLanguage } from "../languageContext";
-import fr from "../../../assets/service/fr";
-import en from "../../../assets/service/en";
+import fr from "../../../service/fr";
+import en from "../../../service/en";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";

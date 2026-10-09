@@ -4,7 +4,7 @@ const en = {
    acceuil : { 
       hey : "Hey, i'am",
       nom : "Teddy TEGOUNOU",
-      poste : "Front-End Web Developer",
+      poste : "Web Developer",
       button : "Download CV"
     },
     

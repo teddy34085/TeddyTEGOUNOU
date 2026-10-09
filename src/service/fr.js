@@ -6,7 +6,7 @@ import { button } from "framer-motion/client";
     acceuil : { 
       hey : "Hey, je suis",
       nom : "Teddy TEGOUNOU",
-      poste : "Developpeur Web Front-End",
+      poste : "Developpeur Web",
       button : "Telecharger mon CV"
      },
     

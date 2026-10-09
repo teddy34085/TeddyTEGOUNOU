@@ -88,7 +88,7 @@ function StarsBackground({
     <div
       data-slot="stars-background"
       className={cn(
-        'relative size-full overflow-hidden bg-white text-black dark:bg-black dark:text-white',
+        'relative size-full overflow-hidden bg-background text-foreground',
         className,
       )}
       onMouseMove={handleMouseMove}

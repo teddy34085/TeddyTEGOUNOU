@@ -1,6 +1,6 @@
 
-import fr from "../../assets/service/fr"
-import en from "../../assets/service/en"
+import fr from "../../service/fr"
+import en from "../../service/en"
 import { useLanguage } from "./languageContext";
 import { ShineBorder } from "@/components/ui/shine-border"
 

@@ -1,47 +1,19 @@
-
-html{
+html {
   scroll-behavior: smooth;
 }
 
-
- #active{
-   /* transition: all ease 0.6s; */
-   transform: translateX(16px);
-  }
-/*
-#lignehambuger1{
-     transform: rotate(-60deg) translate(5px, 0px);
-     width: 24px;
+#active {
+  transform: translateX(16px);
 }
 
-#lignehambuger2{
-       transform:rotate(60deg) translate(5px, 0px);
-       width: 24px;
-       margin-bottom: -5px;
-} */
-
-
-.nom-prenom{
+.nom-prenom {
   font-size: clamp(20px, 8vw, 32px);
 }
 
-/* .navigation{
-  transform: translateX(100px);
-  transition: all ease 0.6s;
-} */
-
-/* #navigationId{
-  display: block;
-} */
-#navigation{
+#navigation {
   display: none;
 }
 
-#header{
+#header {
   z-index: 100;
 }
-
-/* #activeZindex{
-  z-index: 0;
-  transform: translateX(0);
-} */

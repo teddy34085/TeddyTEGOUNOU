@@ -1,7 +1,7 @@
 
 import { useLanguage } from "../languageContext";
-import fr from "../../../assets/service/fr"
-import en from "../../../assets/service/en"
+import fr from "../../../service/fr"
+import en from "../../../service/en"
 
 import { StarsBackground } from "@/components/animate-ui/components/backgrounds/stars";
 import { ShimmerButton } from "@/components/ui/shimmer-button";
@@ -16,10 +16,10 @@ export function Cta() {
   const { translations } = useLanguage()
 
   const scrollToSection = () => {
-  document.getElementById(contact).scrollIntoView({ behavior: "smooth" });
-   };
+    document.getElementById(contact).scrollIntoView({ behavior: "smooth" });
+  };
 
-    const handleDownload = () => {
+  const handleDownload = () => {
     const link = document.createElement("a");
     link.href = "/CV.pdf";
     link.download = "CV.pdf";
@@ -46,10 +46,10 @@ export function Cta() {
       <div className="relative z-10">
 
         <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        viewport={{ once: true }}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
           className="alignApropos 
           w-full h-auto 
           flex flex-col justify-center gap-6 
@@ -59,10 +59,10 @@ export function Cta() {
 
             <TextAnimate animation="slideUp" by="word" className="font-serif text-4xl lg:text-6xl 2xl:text-6xl">
               {translations.cta.titre}
-            </TextAnimate>   
-            
+            </TextAnimate>
+
             <p className="text-xl lg:text-2xl">{translations.cta.texte1}</p>
-            
+
           </div>
 
 
@@ -74,10 +74,10 @@ export function Cta() {
               </div>
               <div className="w-full h-auto 2xl:text-xl md:flex md:justify-end">
                 <ShinyButton onClick={handleDownload}>{translations.cta.button1}</ShinyButton>
-              </div>   
+              </div>
             </div>
             <p className="text-lg md:text-center lg:text-xl">{translations.cta.texte2}</p>
- 
+
           </div>
         </motion.div>
 
