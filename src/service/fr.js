@@ -20,8 +20,8 @@ import { button } from "framer-motion/client";
 
     propos : {
        titre : "Apropos",
-       textepropos : "Developpeur web Front-End, je concois des sites vitrines pour des entreprises",
-       textepropos2 : "Développeur Front-End, je transforme des idées en plateformes web fluides, rapides et pensées pour l’utilisateur. Chaque projet démarre en mobile-first, une approche qui me permet de construire des interfaces solides dès la base et d’assurer une expérience fluide, quel que soit l’écran.",
+       textepropos : "Developpeur web, je concois des sites vitrines pour des entreprises",
+       textepropos2 : "Developpeur web, je transforme des idées en plateformes web fluides, rapides et pensées pour l’utilisateur. Chaque projet démarre en mobile-first, une approche qui me permet de construire des interfaces solides dès la base et d’assurer une expérience fluide, quel que soit l’écran.",
        button : "Telecharger mon CV",
        competence1 : {
          nombre : "2+",

@@ -217,7 +217,6 @@ function Competence() {
                 <Star className="size-6 text-foreground lg:size-7" />
                 <Star className="size-6 text-foreground lg:size-7" />
                 <Star className="size-6 text-foreground lg:size-7" />
-                <StarHalf className="size-6 text-foreground lg:size-7" />
               </div>
             </div>
           </div>
@@ -249,7 +248,7 @@ function Competence() {
                 <Star className="size-6 text-foreground lg:size-7" />
                 <Star className="size-6 text-foreground lg:size-7" />
                 <Star className="size-6 text-foreground lg:size-7" />
-                <Star className="size-6 text-foreground lg:size-7" />
+                <StarHalf className="size-6 text-foreground lg:size-7" />
               </div>
             </div>
           </div>
@@ -265,7 +264,7 @@ function Competence() {
                 <Star className="size-6 text-foreground lg:size-7" />
                 <Star className="size-6 text-foreground lg:size-7" />
                 <Star className="size-6 text-foreground lg:size-7" />
-                <Star className="size-6 text-foreground lg:size-7" />
+                <StarHalf className="size-6 text-foreground lg:size-7" />
               </div>
             </div>
           </div>

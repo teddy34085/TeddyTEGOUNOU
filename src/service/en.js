@@ -18,8 +18,8 @@ const en = {
 
     propos : {
        titre : "Apropos",
-       textepropos : "Developpeur web Front-End, je concois des sites vitrines pour des entreprises",
-       textepropos2 : "Front-End developer, I transform ideas into fluid, fast and user-designed web platforms. Each project starts in mobile-first, an approach that allows me to build solid interfaces from the base and ensure a smooth experience, whatever the screen.",
+       textepropos : "Web Déveloper, je concois des sites vitrines pour des entreprises",
+       textepropos2 : "Web Developer, I transform ideas into fluid, fast and user-designed web platforms. Each project starts in mobile-first, an approach that allows me to build solid interfaces from the base and ensure a smooth experience, whatever the screen.",
        button : "Telecharger mon CV",
        competence1 : {
          nombre : "2+",

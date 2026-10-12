@@ -33,7 +33,7 @@ import { ShineBorder } from "@/components/ui/shine-border";
 import { NomSection } from "../titreSection";
 import { ComponentIconTexte } from "../componentIconTexte";
 
-import aproposImage from "../../../assets/image/aproposImage.webp";
+import aproposImage from "../../../assets/image/aproposImage.png";
 
 import { motion } from "framer-motion";
 
@@ -145,7 +145,7 @@ function Image() {
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.6 }}
       viewport={{ once: true }}
-      className="relative 
+      className=" 
             w-full h-auto 
             flex flex-col 
             overflow-hidden max-w-md
@@ -154,9 +154,8 @@ function Image() {
       <img
         src={aproposImage}
         alt="aproposImage"
-        className="w-full h-auto object-contain"
+        className="w-full h-auto object-left object-contain rounded-b-full"
       />
-      <div className="w-full h-50 bg-background absolute bottom-[-80px] z-20 blur-xl 2xl:bottom-[-50px]"></div>
     </motion.div>
   );
 }
