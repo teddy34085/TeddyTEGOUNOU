@@ -43,30 +43,30 @@ import { button } from "framer-motion/client";
 
     services : {
        titre : "Services",
-       sousTitre: "Je concois Des interfaces modernes, rapides et pensées pour vos utilisateurs.",
+       sousTitre: "Je conçois et développe des solutions web modernes, performantes et adaptées à vos objectifs.",
        service1: {
-        textH3: "Experience Utilisateur",
-        textP: "Creer des interfaces intuitives et agreables qui mettent l'utilisateur au cour du projet."
+        textH3: "Site vitrine",
+        textP: "Création de sites professionnels et responsives, optimisés pour le SEO et la performance, avec hébergement et mise en production."
        },
        service2: {
-        textH3: "Design Responsive",
-        textP: "Adapter vos sites a tous les appareils pour une expérience fluide sur mobile, tablette et desktop."
+        textH3: "Site e-commerce",
+        textP: "Développement de boutiques en ligne responsives et performantes, optimisées pour le référencement, avec hébergement et mise en production."
        },
        service3: {
-        textH3: "Optimisation de Performance",
-        textP: "Ameliorer la vitesse de chargement et les performances pour un meilleur referencement."
+        textH3: "Application web",
+        textP: "Conception d’applications web interactives et responsives, optimisées pour la performance, avec déploiement et mise en production."
        },
        service4: {
-        textH3: "Accessibilite Web",
-        textP: "Rendre vos sites accessibles à tous selon les normes WCAG pour une inclusivite maximale."
+        textH3: "Refonte de site web",
+        textP: "Modernisation du design, de l’identité visuelle (logo, charte graphique) et de la structure du site, avec audit et conseils pour améliorer l’expérience utilisateur."
        },
        service5: {
-        textH3: "Developpement sur Mesure",
-        textP: "Développer des solutions web personnalisees avec un code propre, maintenable et evolutif."
+        textH3: "Optimisation SEO & performance",
+        textP: "Amélioration du référencement technique, de la vitesse et de la sécurité (SSL, sauvegardes), avec maintenance, support et suivi des visiteurs via des outils Analytics."
        },
        service6: {
-        textH3: "Animations & Interactions",
-        textP: "Creer des animations modernes et interactions engageantes pour captiver vos visiteurs."
+        textH3: "Développement backend & API",
+        textP: "Développement de serveurs, d’API et de bases de données, avec intégration de solutions de paiement sécurisées (Mobile Money et carte bancaire)."
        }
      },
 
@@ -85,6 +85,10 @@ import { button } from "framer-motion/client";
         adresseMail: "Adresse Mail",
         numeroTelephone: "Numero de telephone",
         button: "Reserver un appel"
+     },
+
+     footer:{
+      textSign: "Tous droits reserves"
      }
  };
 

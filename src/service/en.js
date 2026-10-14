@@ -41,30 +41,30 @@ const en = {
 
     services : {
        titre : "Services",
-       sousTitre: "I design modern, fast interfaces built with your users in mind.",
+       sousTitre: "I design and develop modern, high-performance web solutions tailored to your goals.",
        service1: {
-        textH3: "User Experience",
-        textP: "Create intuitive and pleasant interfaces that put the user at the heart of the project."
+        textH3: "Business Website",
+        textP: "Development of professional, responsive websites optimized for SEO and performance, including hosting and deployment."
        },
        service2: {
-        textH3: "Responsive Design",
-        textP: "Adapt your websites to all devices for a smooth experience on mobile, tablet, and desktop."
+        textH3: "E-commerce Website",
+        textP: "Development of responsive and performant online stores optimized for search engine ranking, including hosting and deployment."
        },
        service3: {
-        textH3: "Performance Optimization",
-        textP: "Improve loading speed and performance for better SEO."
+        textH3: "Web Application",
+        textP: "Development of interactive, responsive web applications optimized for performance, including deployment and production setup."
        },
        service4: {
-        textH3: "Web Accessibility",
-        textP: "Make your websites accessible to everyone according to WCAG standards for maximum inclusivity."
+        textH3: "Website Redesign",
+        textP: "Modernize the design, visual identity (logo, brand guidelines) and structure of your website, with audits and advice to improve the user experience."
        },
        service5: {
-        textH3: "Custom Development",
-        textP: "Build tailor-made web solutions with clean, maintainable, and scalable code."
+        textH3: "SEO & Performance Optimization",
+        textP: "Improvement of technical SEO, website speed, and security (SSL, backups), with maintenance, support, and visitor tracking through analytics tools."
        },
        service6: {
-        textH3: "Animations & Interactions",
-        textP: "Create modern animations and engaging interactions to captivate your visitors."
+        textH3: "Backend & API Development",
+        textP: "Development of server-side systems, APIs, and databases, with secure payment integration (Mobile Money and credit/debit cards)."
        }
      },
      
@@ -83,6 +83,10 @@ const en = {
         adresseMail: "Address Mail",
         numeroTelephone: "Phone Number",
         button: "Book a call"
+     },
+
+     footer:{
+      textSign: "Tous droits reserves"
      }
 
  };

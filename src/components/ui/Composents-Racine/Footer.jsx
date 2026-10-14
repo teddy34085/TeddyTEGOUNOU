@@ -29,7 +29,7 @@ export function Footer() {
                       <hr className="lg:rotate-90 lg:z-999"/>
                       <div className="w-full h-auto flex flex-col gap-8 lg:justify-center">
                            <Navbar />
-                           <p className="text-muted-foreground">Copyright © {new Date().getFullYear()} - Tous droits reserves</p>
+                           <p className="text-muted-foreground">Copyright © {new Date().getFullYear()} - {translations.footer.textSign}</p>
                       </div>
                 </div>
         </footer>
