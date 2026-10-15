@@ -7,7 +7,19 @@ import { ShineBorder } from "@/components/ui/shine-border";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
-import { faUsers, faMobileScreenButton, faGaugeHigh, faUniversalAccess, faCode, faWandMagicSparkles } from "@fortawesome/free-solid-svg-icons";
+import { 
+  faUsers, 
+  faMobileScreenButton, 
+  faGaugeHigh, 
+  faUniversalAccess, 
+  faCode, 
+  faWandMagicSparkles,
+  faLaptopCode,
+  faCartShopping,
+  faRocket,
+  faServer,
+  faArrowRotateForward
+ } from "@fortawesome/free-solid-svg-icons";
 
 import { NomSection } from "../titreSection";
 import { CardServices } from "../cardServices";
@@ -33,7 +45,7 @@ export function Services() {
 
           <NomSection titre={translations.services.titre} />
 
-          <h3 className="text-2xl font-serif lg:max-w-2xl lg:text-3xl 2xl:text-4xl 2xl:max-w-4xl">
+          <h3 className="text-2xl font-serif lg:text-3xl 2xl:text-4xl lg:max-w-3xl 2xl:max-w-4xl">
                 {translations.services.sousTitre}
           </h3>
 
@@ -48,33 +60,33 @@ export function Services() {
         xl:gap-6">
 
           <CardServices 
-          icon={faUsers} 
+          icon={faLaptopCode} 
           textH3={translations.services.service1.textH3} 
           textP={translations.services.service1.textP}/>
 
           <CardServices 
-          icon={faMobileScreenButton} 
+          icon={faCartShopping} 
           textH3={translations.services.service2.textH3} 
           textP={translations.services.service2.textP}/>
 
           <CardServices 
-          icon={faGaugeHigh} 
+          icon={faLaptopCode} 
           textH3={translations.services.service3.textH3} 
           textP={translations.services.service3.textP}/>
 
           <CardServices 
-          icon={faUniversalAccess} 
+          icon={faArrowRotateForward} 
           textH3={translations.services.service4.textH3} 
           textP={translations.services.service4.textP}/>
 
           <CardServices 
-          icon={faCode} 
+          icon={faRocket} 
           textH3={translations.services.service5.textH3} 
           textP={translations.services.service5.textP}/>
 
 
           <CardServices 
-          icon={faWandMagicSparkles} 
+          icon={faServer} 
           textH3={translations.services.service6.textH3} 
           textP={translations.services.service6.textP}/>
 
