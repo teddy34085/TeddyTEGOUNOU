@@ -4,6 +4,7 @@ import { Services } from "../section/services"
 import { Cta } from "../section/cta"
 import { Skills } from "../section/skills"
 import { Contact } from "../section/contact"
+import { Faq } from "../section/faq"
 
 export function Main(){
   return (
@@ -22,6 +23,8 @@ export function Main(){
       <Skills />
 
       <Contact />
+
+      <Faq />
         
     </main>
   )

@@ -1,19 +1,12 @@
 
+import { useLanguage } from "../languageContext";
 import fr from "../../../service/fr";
 import en from "../../../service/en";
-import { useLanguage } from "../languageContext";
 
 import { ShineBorder } from "@/components/ui/shine-border";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { 
-  faUsers, 
-  faMobileScreenButton, 
-  faGaugeHigh, 
-  faUniversalAccess, 
   faCode, 
-  faWandMagicSparkles,
   faLaptopCode,
   faCartShopping,
   faRocket,
@@ -70,7 +63,7 @@ export function Services() {
           textP={translations.services.service2.textP}/>
 
           <CardServices 
-          icon={faLaptopCode} 
+          icon={faCode} 
           textH3={translations.services.service3.textH3} 
           textP={translations.services.service3.textP}/>
 

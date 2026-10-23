@@ -153,7 +153,7 @@ function Image() {
     >
       <img
         src={aproposImage}
-        alt="aproposImage"
+        alt="Developpeur Web Douala, Cameroun"
         className="w-full h-auto object-left object-contain rounded-b-full"
       />
     </motion.div>

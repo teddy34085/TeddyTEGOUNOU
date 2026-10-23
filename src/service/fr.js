@@ -43,7 +43,7 @@ import { button } from "framer-motion/client";
 
     services : {
        titre : "Services",
-       sousTitre: "Je conçois et développe des solutions web modernes, performantes et adaptées à vos objectifs.",
+       sousTitre: " Je propose 6 services clés en développement web pour répondre à vos besoins digitaux.",
        service1: {
         textH3: "Site vitrine",
         textP: "Création de sites professionnels et responsives, optimisés pour le SEO et la performance, avec hébergement et mise en production."
@@ -85,6 +85,45 @@ import { button } from "framer-motion/client";
         adresseMail: "Adresse Mail",
         numeroTelephone: "Numero de telephone",
         button: "Reserver un appel"
+     },
+
+     faq:{
+         faqText: "Frequently asked questions",
+         faqText1: "Still have a questions ?",
+         faqText2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed est nemo suscipit",
+         faqButton: "Envoyer moi un message",
+         question:[
+                {
+        question: "Combien coûte la création d’un site web ?",
+        answer:
+          "Le tarif dépend du type de site, de sa complexité et des fonctionnalités souhaitées. Un site vitrine simple peut coûter entre 100 000 FCFA et 300 000 FCFA, tandis qu'un site e-commerce ou une application web sur mesure peut aller de 150 000 FCFA à plus de 500 000 FCFA. Le prix dépend du nombre de pages, des fonctionnalités, du design et des intégrations souhaitées.",
+      },
+      {
+        question: "Combien de temps faut-il pour créer un site web ?",
+        answer:
+          "Le délai dépend de la taille du projet et des fonctionnalités à développer. Un site vitrine peut généralement être réalisé en une à deux semaines, tandis qu'un site plus complexe (e-commerce, plateforme sur mesure) peut prendre de 1 à 3 mois, voire plus selon les fonctionnalités et les allers-retours avec le client.",
+      },
+      {
+        question: "Puis-je te confier la refonte d’un site existant ?",
+        answer:
+          "Oui, tout à fait. Je peux t'accompagner dans la refonte complète ou partielle d'un site existant : modernisation du design, amélioration des performances, optimisation du référencement, migration technique, etc. Il faudra d'abord analyser le site actuel pour définir les objectifs et les priorités.",
+      },
+      {
+        question: "Le site sera-t-il sécurisé avec un certificat SSL ?",
+        answer:
+          "Oui, un certificat SSL est indispensable aujourd'hui. Il permet de sécuriser les échanges de données (HTTPS) et est fortement recommandé, voire obligatoire, pour le référencement et la confiance des visiteurs.",
+      },
+      {
+        question: "What formats are available?",
+        answer:
+          "Templates are available as Figma files and as React + Tailwind CSS code.",
+      },
+      {
+        question: "Mon site apparaîtra-t-il sur Google ?",
+        answer:
+          "Je mets en œuvre les bonnes pratiques du SEO technique pour faciliter l’exploration et l’indexation de votre site par Google. Toutefois, son positionnement dans les résultats dépend de plusieurs facteurs et ne peut pas être garanti.",
+      },
+         ]
      },
 
      footer:{

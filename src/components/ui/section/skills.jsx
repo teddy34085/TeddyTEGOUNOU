@@ -23,8 +23,9 @@ const skills = [
     skillName1: "Reactjs",
     skillName2: "Javascript",
     skillName3: "Tailwind CSS",
-    skillName4: "HTML",
-    skillName5: "CSS",
+    skillName4: "Bootstrap",
+    skillName5: "HTML",
+    skillName6: "CSS",
   },
   {
     id: 2,
@@ -118,6 +119,13 @@ export function Skills() {
                     <div className="group hover:bg-accent-foreground active:bg-accent-foreground p-2 bg-muted border rounded-lg transition-all hover:scale-90">
                       <p className="group-hover:text-accent group-active:text-accent 2xl:text-2xl">
                         {skill.skillName5}
+                      </p>
+                    </div>
+                  )}
+                  {skill.skillName6 && (
+                    <div className="group hover:bg-accent-foreground active:bg-accent-foreground p-2 bg-muted border rounded-lg transition-all hover:scale-90">
+                      <p className="group-hover:text-accent group-active:text-accent 2xl:text-2xl">
+                        {skill.skillName6}
                       </p>
                     </div>
                   )}
