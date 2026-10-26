@@ -73,10 +73,7 @@ export function Accordellion() {
         }`}
       >
         <div className="overflow-hidden">
-          {/* <p className={`text-xl leading-relaxed text-muted-foreground ${isOpen ? "pt-0 p-5" : "p-5"}`}>
-            {answer}
-          </p> */}
-          <TextAnimate animation="slideUp" by="word" className={`text-xl leading-relaxed text-muted-foreground ${isOpen ? "pt-0 p-5" : "p-5"}`}>{answer}</TextAnimate>
+          <TextAnimate animation="blurIn" as="h1" className={`text-xl leading-relaxed text-muted-foreground ${isOpen ? "pt-0 p-5" : "p-5"}`}>{answer}</TextAnimate>
         </div>
       </div>
     </div>

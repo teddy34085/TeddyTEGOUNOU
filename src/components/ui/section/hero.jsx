@@ -5,7 +5,6 @@ import en from "../../../service/en";
 
 import profile from "../../../assets/image/profile.webp";
 
-import { TextAnimate } from "@/components/ui/text-animate";
 import { TypingAnimation } from "@/components/ui/typing-animation";
 import { ShimmerButton } from "@/components/ui/shimmer-button";
 import { ShineBorder } from "@/components/ui/shine-border";

@@ -49,7 +49,7 @@ export function Faq(){
                      <p className="text-xl">{translations.faq.faqText2}</p>
                   </div> 
                   <div className="w-full h-auto lg:text-xl md:flex md:justify-start">
-                     <ShimmerButton><a href="mailto:tbr34085@gmail.com">{translations.faq.faqButton}</a></ShimmerButton>
+                     <ShimmerButton onClick={() => (window.location.href = "mailto:tbr34085@gmail.com")}>{translations.faq.faqButton}</ShimmerButton>
                   </div>
              </motion.div>
           </div> 
