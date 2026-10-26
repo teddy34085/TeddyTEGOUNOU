@@ -112,11 +112,6 @@ const en = {
           "Yes, an SSL certificate is essential today. It secures data exchanges (HTTPS) and is highly recommended, if not mandatory, for search engine ranking and visitor trust.",
       },
       {
-        question: "What formats are available?",
-        answer:
-          "Templates are available as Figma files and as React + Tailwind CSS code.",
-      },
-      {
         question: "Will my website appear on Google?",
         answer:
           "I implement the best SEO practices to facilitate the exploration and indexing of your website by Google. However, its positioning in the results depends on several factors and cannot be guaranteed.",

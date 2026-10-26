@@ -168,7 +168,7 @@ function Competence() {
               className="text-5xl text-foreground"
             />
             <div className="w-full h-auto flex flex-col gap-2">
-              <h3 className="text-xl">HTML</h3>
+              <p className="text-xl">HTML</p>
               <div className="w-full h-auto flex items-center gap-4">
                 <Star className="size-6 text-foreground lg:size-7" />
                 <Star className="size-6 text-foreground lg:size-7" />
@@ -185,7 +185,7 @@ function Competence() {
               className="text-5xl text-foreground"
             />
             <div className="w-full h-auto flex flex-col gap-2">
-              <h3 className="text-xl">CSS</h3>
+              <p className="text-xl">CSS</p>
               <div className="w-full h-auto flex items-center gap-4">
                 <Star className="size-6 text-foreground lg:size-7" />
                 <Star className="size-6 text-foreground lg:size-7" />
@@ -202,7 +202,7 @@ function Competence() {
               className="text-5xl text-foreground"
             />
             <div className="w-full h-auto flex flex-col gap-2">
-              <h3 className="text-xl">Tailwind Css</h3>
+              <p className="text-xl">Tailwind Css</p>
               <div className="w-full h-auto flex items-center gap-4">
                 <Star className="size-6 text-foreground lg:size-7" />
                 <Star className="size-6 text-foreground lg:size-7" />
@@ -219,7 +219,7 @@ function Competence() {
               className="text-5xl text-foreground"
             />
             <div className="w-full h-auto flex flex-col gap-2">
-              <h3 className="text-xl">Bootstrap</h3>
+              <p className="text-xl">Bootstrap</p>
               <div className="w-full h-auto flex items-center gap-4">
                 <Star className="size-6 text-foreground lg:size-7" />
                 <Star className="size-6 text-foreground lg:size-7" />
@@ -235,7 +235,7 @@ function Competence() {
               className="text-5xl text-foreground"
             />
             <div className="w-full h-auto flex flex-col gap-2">
-              <h3 className="text-xl">Javascript</h3>
+              <p className="text-xl">Javascript</p>
               <div className="w-full h-auto flex items-center gap-4">
                 <Star className="size-6 text-foreground lg:size-7" />
                 <Star className="size-6 text-foreground lg:size-7" />
@@ -251,7 +251,7 @@ function Competence() {
               className="text-5xl text-foreground"
             />
             <div className="w-full h-auto flex flex-col gap-2">
-              <h3 className="text-xl">React</h3>
+              <p className="text-xl">React</p>
               <div className="w-full h-auto flex items-center gap-4">
                 <Star className="size-6 text-foreground lg:size-7" />
                 <Star className="size-6 text-foreground lg:size-7" />
@@ -267,7 +267,7 @@ function Competence() {
               className="text-5xl text-foreground"
             />
             <div className="w-full h-auto flex flex-col gap-2">
-              <h3 className="text-xl">Node Js</h3>
+              <p className="text-xl">Node Js</p>
               <div className="w-full h-auto flex items-center gap-4">
                 <Star className="size-6 text-foreground lg:size-7" />
                 <Star className="size-6 text-foreground lg:size-7" />
@@ -283,7 +283,7 @@ function Competence() {
               className="text-5xl text-foreground"
             />
             <div className="w-full h-auto flex flex-col gap-2">
-              <h3 className="text-xl">Git</h3>
+              <p className="text-xl">Git</p>
               <div className="w-full h-auto flex items-center gap-4">
                 <Star className="size-6 text-foreground lg:size-7" />
                 <Star className="size-6 text-foreground lg:size-7" />

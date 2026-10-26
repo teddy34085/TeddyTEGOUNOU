@@ -4,7 +4,7 @@ import fr from "../../service/fr";
 import en from "../../service/en";
 
 import { useId, useState } from "react";
-
+import { TextAnimate } from "@/components/ui/text-animate"
 
 
 export function Accordellion() {
@@ -73,9 +73,10 @@ export function Accordellion() {
         }`}
       >
         <div className="overflow-hidden">
-          <p className={`text-xl leading-relaxed text-muted-foreground ${isOpen ? "pt-0 p-5" : "p-5"}`}>
+          {/* <p className={`text-xl leading-relaxed text-muted-foreground ${isOpen ? "pt-0 p-5" : "p-5"}`}>
             {answer}
-          </p>
+          </p> */}
+          <TextAnimate animation="slideUp" by="word" className={`text-xl leading-relaxed text-muted-foreground ${isOpen ? "pt-0 p-5" : "p-5"}`}>{answer}</TextAnimate>
         </div>
       </div>
     </div>

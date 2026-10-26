@@ -1,12 +1,16 @@
 @font-face {
-    font-family: karma;
-    src: url(Karma-Regular.ttf);
+    font-family: Karma;
+    src: url(../assets/fonts/Karma-Regular.ttf);
     font-display: swap;
 }
 
 html {
   scroll-behavior: smooth;
 }
+
+h1, h2, h3, h4, h5, h6{
+  font-family: karma, roboto, inter, Arial, Helvetica, sans-serif;
+} 
 
 #active {
   transform: translateX(16px);

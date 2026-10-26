@@ -114,11 +114,6 @@ import { button } from "framer-motion/client";
           "Oui, un certificat SSL est indispensable aujourd'hui. Il permet de sécuriser les échanges de données (HTTPS) et est fortement recommandé, voire obligatoire, pour le référencement et la confiance des visiteurs.",
       },
       {
-        question: "What formats are available?",
-        answer:
-          "Templates are available as Figma files and as React + Tailwind CSS code.",
-      },
-      {
         question: "Mon site apparaîtra-t-il sur Google ?",
         answer:
           "Je mets en œuvre les bonnes pratiques du SEO technique pour faciliter l’exploration et l’indexation de votre site par Google. Toutefois, son positionnement dans les résultats dépend de plusieurs facteurs et ne peut pas être garanti.",
