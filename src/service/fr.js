@@ -89,9 +89,9 @@ import { button } from "framer-motion/client";
 
      faq:{
          faqText: "Frequently asked questions",
-         faqText1: "Still have a questions ?",
-         faqText2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed est nemo suscipit",
-         faqButton: "Envoyer moi un message",
+         faqText1: "Vous avez encore des questions ?",
+         faqText2: "Vous avez un projet en tête, besoin d'un devis ou simplement une question technique ? N'hésitez pas à me contacter.",
+         faqButton: "Envoyez-moi un message",
          question:[
                 {
         question: "Combien coûte la création d’un site web ?",

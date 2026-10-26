@@ -87,8 +87,8 @@ const en = {
 
      faq:{
          faqText: "Frequently asked questions",
-         faqText1: "Still have a questions ?",
-         faqText2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed est nemo suscipit",
+         faqText1: "Still have any questions ?",
+         faqText2: "Do you have a project in mind, need a quote, or just a technical question? Feel free to get in touch. I usually reply within 24 hours.",
          faqButton: "Envoyer moi un message",
          question:[
                 {
