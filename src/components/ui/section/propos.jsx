@@ -33,7 +33,7 @@ import { ShineBorder } from "@/components/ui/shine-border";
 import { NomSection } from "../titreSection";
 import { ComponentIconTexte } from "../componentIconTexte";
 
-import aproposImage from "../../../assets/image/aproposImage.png";
+import aproposImage from "../../../assets/image/aproposImage.webp";
 
 import { motion } from "framer-motion";
 
