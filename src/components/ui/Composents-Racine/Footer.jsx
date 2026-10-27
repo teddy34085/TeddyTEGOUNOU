@@ -25,7 +25,16 @@ export function Footer() {
                     w-full h-auto
                     flex flex-col gap-8
                     lg:flex-row lg:h-full ">
-                      <h2 className="font-serif text-4xl lg:text-5xl 2xl:text-6xl"> Teddy <br/> TEGOUNOU </h2>
+                    <motion.h2
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.6 }}
+                        viewport={{ once: true }}
+                        className="font-serif text-4xl 
+                        lg:text-5xl 2xl:text-6xl"
+                    >
+                         Teddy <br/> TEGOUNOU 
+                      </motion.h2>
                       <hr className="lg:rotate-90 lg:z-999"/>
                       <div className="w-full h-auto flex flex-col gap-8 lg:justify-center">
                            <Navbar />

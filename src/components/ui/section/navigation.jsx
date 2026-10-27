@@ -106,14 +106,14 @@ export function Navigation() {
           <div className="info px-5 w-full h-auto flex flex-col gap-6 justify-center items-center">
             <div className="flex gap-4 w-full h-auto">
               <FontAwesomeIcon
-                icon={faLinkedinIn}
+                icon={faGithub}
                 className="text-xl text-sidebar-forground transition-all group-active:mr-2"
               />
               <p> <a href="#">teddy34085</a> </p>
             </div>
             <div className="flex gap-4 w-full h-auto">
               <FontAwesomeIcon
-                icon={faGithub }
+                icon={faLinkedinIn}
                 className="text-xl ext-sidebar-forground transition-all group-active:mr-2"
               />
               <p> <a href="#">Teddy TEGOUNOU</a> </p>
@@ -123,7 +123,7 @@ export function Navigation() {
                 icon={faEnvelope}
                 className="text-xl text-sidebar-forground transition-all group-active:mr-2"
               />
-              <p> <a href="#">tbr34085@gmail.com</a> </p>
+              <p> <a href="mailto:tbr34085@gmail.com">tbr34085@gmail.com</a> </p>
             </div>
             <div className="flex gap-4 w-full h-auto">
               <FontAwesomeIcon

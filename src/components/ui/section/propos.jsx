@@ -82,24 +82,33 @@ function Texte() {
       justify-start gap-4 
       2xl:gap-8"
       >
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
+        <div
           className="
           w-full h-auto 
           flex flex-col 
           justify-start gap-2 
           2xl:gap-4"
         >
-          <h3 className="text-2xl font-serif lg:text-3xl 2xl:text-4xl">
+          <motion.h3 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="text-2xl font-serif 
+          lg:text-3xl 2xl:text-4xl"
+          >
             {translations.propos.textepropos}
-          </h3>
-          <p className="text-xl text-muted-foreground 2xl:text-2xl">
+          </motion.h3>
+          <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.9 }}
+          viewport={{ once: true }} 
+          className="text-xl text-muted-foreground 
+          2xl:text-2xl">
             {translations.propos.textepropos2}
-          </p>
-        </motion.div>
+          </motion.p>
+        </div>
 
         <motion.div
           initial={{ opacity: 0, y: 40 }}

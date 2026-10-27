@@ -23,11 +23,7 @@ export function Hero() {
   };
 
   return (
-    <motion.section
-      initial={{ opacity: 0, y: 40 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8 }}
-      viewport={{ once: true }}
+    <section
       className="
           w-full h-screen px-5 
           flex flex-col justify-center items-center
@@ -75,23 +71,39 @@ export function Hero() {
             <TypingAnimation className="font-serif text-xl lg:text-2xl 2xl:text-3xl">
               {translations.acceuil.hey}
             </TypingAnimation>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl">
-              {" "}
-              Teddy TEGOUNOU{" "}
-            </h2>
-            <h1 className="font-serif text-4xl  md:text-5xl lg:text-6xl 2xl:text-7xl">
+            <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4 }}
+            viewport={{ once: true }} 
+            className="font-serif text-3xl 
+            md:text-4xl lg:text-5xl 2xl:text-6xl">
+              Teddy TEGOUNOU
+            </motion.h2>
+            <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }} 
+            className="font-serif text-4xl  md:text-5xl lg:text-6xl 2xl:text-7xl">
               {translations.acceuil.poste}
-            </h1>
+            </motion.h1>
           </div>
-
-          <ShimmerButton
-            onClick={handleDownload}
-            className="lg:text-xl"
+          <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.2 }}
+          viewport={{ once: true }}
           >
-            {translations.acceuil.button}
-          </ShimmerButton>
+            <ShimmerButton
+              onClick={handleDownload}
+              className="lg:text-xl"
+            >
+              {translations.acceuil.button}
+            </ShimmerButton>
+          </motion.div>
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 }

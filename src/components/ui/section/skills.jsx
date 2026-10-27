@@ -159,7 +159,7 @@ function Competence() {
             w-full h-auto  
             grid grid-cols-1 gap-10 
             md:grid-cols-2 
-            lg:grid-cols-3 lg:gap-10"
+            lg:grid-cols-3 lg:gap-8 2xl:gap-10"
         >
           {/*HTML*/}
           <div className="w-full h-auto flex justify-between items-center gap-4">

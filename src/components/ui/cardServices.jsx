@@ -1,10 +1,23 @@
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
+import { motion } from "framer-motion";
 
 export function CardServices({ icon, textH3, textP }) {
+
+    const item = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.5 },
+  },
+};
+
     return (
-        <div className="
+        <motion.div 
+        variants={item} 
+        className="
         w-full h-auto p-5
         text-card-foreground 
         border border-sidebar-border bg-card
@@ -40,7 +53,7 @@ export function CardServices({ icon, textH3, textP }) {
 
             </div>
 
-        </div>
+        </motion.div>
 
     )
 }

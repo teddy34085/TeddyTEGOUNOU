@@ -31,7 +31,13 @@ export function Faq(){
           <div className="w-full h-auto flex flex-col gap-4 lg:justify-between">
              <div>      
                     <NomSection titre="FAQ" />
-                    <h2 className="w-2/3 font-serif text-2xl lg:text-3xl 2xl:text-4xl">{translations.faq.faqText}</h2>
+                    <motion.h2 
+                     initial={{ opacity: 0, y: 20 }}
+                     whileInView={{ opacity: 1, y: 0 }}
+                     transition={{ duration: 0.6 }}
+                     viewport={{ once: true }}
+                    className="w-2/3 font-serif text-2xl 
+                    lg:text-3xl 2xl:text-4xl">{translations.faq.faqText}</motion.h2>
              </div> 
              <motion.div
             initial={{ opacity: 0, x: -20 }}

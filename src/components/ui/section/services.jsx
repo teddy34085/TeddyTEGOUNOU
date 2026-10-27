@@ -17,9 +17,30 @@ import {
 import { NomSection } from "../titreSection";
 import { CardServices } from "../cardServices";
 
+import { motion } from "framer-motion";
 
 export function Services() {
+
   const { translations } = useLanguage();
+
+  const container = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.15,
+    },
+  },
+   };
+
+  const item = {
+  hidden: { opacity: 0, y: 30 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.5 },
+  },
+  };
 
   return (
 
@@ -38,13 +59,25 @@ export function Services() {
 
           <NomSection titre={translations.services.titre} />
 
-          <h3 className="text-2xl font-serif lg:text-3xl 2xl:text-4xl lg:max-w-3xl 2xl:max-w-4xl">
+          <motion.h3
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}  
+          className="text-2xl font-serif 
+          lg:text-3xl 2xl:text-4xl 
+          lg:max-w-3xl 2xl:max-w-4xl">
                 {translations.services.sousTitre}
-          </h3>
+          </motion.h3 >
 
        </div>
 
-        <div className="
+        <motion.div
+        variants={container}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.3 }} 
+        className="
         w-full h-auto max-w-100 mx-auto
         grid grid-cols-1 gap-6
         md:grid-cols-2 md:max-w-full
@@ -83,7 +116,7 @@ export function Services() {
           textH3={translations.services.service6.textH3} 
           textP={translations.services.service6.textP}/>
 
-        </div>
+        </motion.div>
 
       </div>
     </section>

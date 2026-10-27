@@ -57,35 +57,48 @@ export function Contact() {
 
         <div className="w-full h-auto flex flex-col gap-6 lg:flex-row">
           {/* container texte  */}
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
+          <div
             className="
             w-full h-auto 
             flex flex-col gap-6"
           >
-            <h2 className="font-serif text-2xl lg:text-3xl 2xl:text-4xl">
+            <motion.h2
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            className="font-serif text-2xl 
+            lg:text-3xl 2xl:text-4xl">
               {translations.contact.titre}
-            </h2>
+            </motion.h2>
             <div className="w-full h-auto flex flex-col gap-4">
-              <div className="w-full h-auto flex items-center gap-4">
+              <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+              className="w-full h-auto 
+              flex items-center gap-4">
                 <FontAwesomeIcon
                   icon={faEnvelope}
                   className="text-2xl text-sidebar-forground transition-all group-active:mr-2"
                 />
                 <p className="text-xl"> tbr34085@gmail.com </p>
-              </div>
-              <div className="w-full h-auto flex items-center gap-4">
+              </motion.div>
+              <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }} 
+              className="w-full h-auto 
+              flex items-center gap-4">
                 <FontAwesomeIcon
                   icon={faPhone}
                   className="text-2xl text-sidebar-forground transition-all group-active:mr-2"
                 />
                 <p className="text-xl"> +237650307945 </p>
-              </div>
+              </motion.div>
             </div>
-          </motion.div>
+          </div>
           {/* container formulaire  */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
